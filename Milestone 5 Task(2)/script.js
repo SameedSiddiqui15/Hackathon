@@ -80,7 +80,7 @@ var _a;
                     switch (_a.label) {
                         case 0:
                             _a.trys.push([0, 2, , 3]);
-                            shareableLink = "https://yourdomain.com/resumes/".concat(name_1.replace(/\s+/g, "_"), "_cv.html");
+                            shareableLink = "https://milestone5-task2-by-sameed.vercel.app//resumes/".concat(name_1.replace(/\s+/g, "_"), "_cv.html");
                             return [4 /*yield*/, navigator.clipboard.writeText(shareableLink)];
                         case 1:
                             _a.sent();
