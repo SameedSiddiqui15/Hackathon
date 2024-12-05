@@ -62,7 +62,7 @@ document.getElementById("resumeForm")?.addEventListener("submit", function(event
             shareLinkButton.style.border = '2px solid white';
             shareLinkButton.addEventListener("click", async () => {
                 try {
-                    const shareableLink = `https://yourdomain.com/resumes/${name.replace(
+                    const shareableLink = `https://milestone5-task2-by-sameed.vercel.app//resumes/${name.replace(
                         /\s+/g,
                         "_"
                     )}_cv.html`;
